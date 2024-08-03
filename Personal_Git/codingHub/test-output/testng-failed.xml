@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Fitpeo Assesment]">
+  <test thread-count="1" parallel="classes" name="Assesment one(failed)">
+    <parameter name="environment" value="https://www.fitpeo.com"/>
+    <parameter name="os" value="WINDOWS"/>
+    <parameter name="selGrid" value="false"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="nodeURL" value="http://172.16.3.117:0002/wd/hub"/>
+    <classes>
+      <class name="com.fitpeo.Assesment.Assesment_one_TC">
+        <methods>
+          <include name="afterTest"/>
+          <include name="firstMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.fitpeo.Assesment.Assesment_one_TC -->
+    </classes>
+  </test> <!-- Assesment one(failed) -->
+</suite> <!-- Failed suite [Fitpeo Assesment] -->
